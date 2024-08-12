@@ -8,16 +8,19 @@ import com.dsa.TwoSumClass;
 import com.dsa.array.MaximumSubArray;
 import com.dsa.array.TopKFrequent;
 import com.dsa.array.string.GroupAnagrams;
+import com.dsa.array.topointers.RotateArray;
 
 public class Main {
 	
 	public static void main(String[] args) {
 		try {
-		int[] nums = new int[] {5,4,-1,7,8};
-		
-		MaximumSubArray obj = new MaximumSubArray();
-		System.out.println(obj.maxSubArray(nums));
-			
+			System.out.println("main");
+			RotateArray obj = new RotateArray();
+			int[] ar = {1,2,3,4,5,6,7};
+			obj.rotate(ar, 3);
+			for(int num : ar) {
+				System.out.print(num + " ");
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
