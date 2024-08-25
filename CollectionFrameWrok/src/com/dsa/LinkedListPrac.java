@@ -3,13 +3,14 @@ package com.dsa;
 import java.util.*;
 
 import com.linkedlist.PalindromeLinkedList;
+import com.linkedlist.SortList;
 import com.linkedlistbase.ListNode;
 
 
 public class LinkedListPrac {
 	
 	public static void main(String[] args) {
-		int[] ar = {1,2,1,2,1};
+		int[] ar = {1};
 		
 		ListNode listNode = new ListNode(ar[0]);
 		ListNode headListNode = listNode;
@@ -22,9 +23,13 @@ public class LinkedListPrac {
 		ListNode temp = headListNode;
 		listNode.displayNodes(headListNode);
 		System.out.println(headListNode);
-		PalindromeLinkedList obj = new PalindromeLinkedList();
-		boolean val = obj.isPalindrome(temp);
-		System.out.println(" palindrome : " + val);
+		
+		SortList objList = new SortList();
+		headListNode = objList.sortList(headListNode);
+		while(headListNode!=null) {
+			System.out.println(headListNode.val + "  ");
+			headListNode = headListNode.next;
+		}
 		
 	}
 	

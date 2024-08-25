@@ -1,6 +1,6 @@
 package com.linkedlistbase;
 
-public class ListNode {
+public class ListNode implements Comparable<ListNode>{
 	public int val;
 	public ListNode next;
 	public ListNode() {}
@@ -13,6 +13,11 @@ public class ListNode {
 			head = head.next;
 		}
 	}
+	
+	@Override
+    public int compareTo(ListNode other) {
+        return Integer.compare(this.val, other.val);
+    }
 	
 	 public ListNode removeNthFromEnd(ListNode head, int n) {
 	    ListNode firstListNode = head;

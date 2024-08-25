@@ -3,6 +3,7 @@ package com.dsa.tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import com.dsa.tree.bfs.GoodNodes;
 import com.dsa.tree.bfs.KthLargestLevelSum;
 
 public class BinaryTreeBuilder {
@@ -48,7 +49,7 @@ public class BinaryTreeBuilder {
         BinaryTreeBuilder builder = new BinaryTreeBuilder();
 
         // Example input: [1, 2, null, 3]
-        Integer[] arr = {5,8,9,2,1,3,7};
+        Integer[] arr = {3,1,4,3,null,1,5};
 
         TreeNode root = builder.buildTree(arr);
 
@@ -56,8 +57,8 @@ public class BinaryTreeBuilder {
         builder.printTree(root);
         System.out.println("\n\n");
         
-        KthLargestLevelSum obj = new KthLargestLevelSum();
-        long res = obj.kthLargestLevelSum(root, 4);
+       GoodNodes obj = new GoodNodes();
+       int res = obj.goodNodes(root);
         System.out.println(res);
     }
 }
