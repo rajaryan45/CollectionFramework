@@ -1,10 +1,12 @@
 package com.dsa.tree;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 import com.dsa.tree.bfs.GoodNodes;
 import com.dsa.tree.bfs.KthLargestLevelSum;
+import com.dsa.tree.bfs.LevelOrderBottom;
 
 public class BinaryTreeBuilder {
 	public TreeNode buildTree(Integer[] arr) {
@@ -49,7 +51,7 @@ public class BinaryTreeBuilder {
         BinaryTreeBuilder builder = new BinaryTreeBuilder();
 
         // Example input: [1, 2, null, 3]
-        Integer[] arr = {3,1,4,3,null,1,5};
+        Integer[] arr = {3,9,20,null,null,15,7};
 
         TreeNode root = builder.buildTree(arr);
 
@@ -57,8 +59,9 @@ public class BinaryTreeBuilder {
         builder.printTree(root);
         System.out.println("\n\n");
         
-       GoodNodes obj = new GoodNodes();
-       int res = obj.goodNodes(root);
+        LevelOrderBottom obj = new LevelOrderBottom();
+        List<List<Integer>> res = obj.levelOrderBottom(root);
+        
         System.out.println(res);
     }
 }
