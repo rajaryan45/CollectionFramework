@@ -21,13 +21,17 @@ import com.dsa.array.bs.MinimizedMaximum;
 import com.dsa.array.sort.QuickSort;
 import com.dsa.array.sort.SortColors;
 import com.dsa.array.string.BeautySum;
+import com.dsa.array.string.CountConsistentStrings;
 import com.dsa.array.string.FindRepeatedDnaSequences;
 import com.dsa.array.string.GroupAnagrams;
 import com.dsa.array.topointers.RotateArray;
+import com.dsa.bit.FindTheLongestSubstring;
+import com.dsa.bit.LongestSubarray;
 import com.dsa.bsonans.SmallestDistancePair;
 import com.dsa.daily.ChalkReplacer;
 import com.dsa.daily.MissingRolls;
 import com.dsa.graph.AllPathsSourceTarget;
+import com.dsa.graph.CalcEquation;
 import com.dsa.graph.FloodFill;
 import com.dsa.graph.NumIslands;
 import com.dsa.hashmap.RobotSim;
@@ -53,9 +57,11 @@ public class Main {
 	
 	public static void main(String[] args) {
 		try {
+
 			
-			MaxPossibleScore obj = new MaxPossibleScore();
-			System.out.println(obj.maxPossibleScore(new int[] {6,0,3}, 2));
+			FindTheLongestSubstring obj = new FindTheLongestSubstring();
+			System.out.println(obj.findTheLongestSubstring("eleetminicoworoep"));
+
 //			for(char x[]: res) {
 //				for(char k : x)
 //					System.out.print(k+" ");

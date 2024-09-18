@@ -5,8 +5,10 @@ import java.util.List;
 import java.util.Queue;
 
 import com.dsa.tree.bfs.GoodNodes;
+import com.dsa.tree.bfs.IsValidBST;
 import com.dsa.tree.bfs.KthLargestLevelSum;
 import com.dsa.tree.bfs.LevelOrderBottom;
+import com.dsa.tree.dfs.SumNumbers;
 
 public class BinaryTreeBuilder {
 	public TreeNode buildTree(Integer[] arr) {
@@ -51,17 +53,15 @@ public class BinaryTreeBuilder {
         BinaryTreeBuilder builder = new BinaryTreeBuilder();
 
         // Example input: [1, 2, null, 3]
-        Integer[] arr = {3,9,20,null,null,15,7};
+        Integer[] arr = {0};
 
         TreeNode root = builder.buildTree(arr);
 
         // Print the constructed tree
         builder.printTree(root);
         System.out.println("\n\n");
+        IsValidBST obj = new IsValidBST();
+        System.out.println(obj.isValidBST(root));
         
-        LevelOrderBottom obj = new LevelOrderBottom();
-        List<List<Integer>> res = obj.levelOrderBottom(root);
-        
-        System.out.println(res);
     }
 }
