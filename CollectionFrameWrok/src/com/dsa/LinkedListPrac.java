@@ -5,6 +5,7 @@ import java.util.*;
 import com.dsa.tree.BinaryTreeBuilder;
 import com.dsa.tree.TreeNode;
 import com.dsa.tree.bfs.IsSubPath;
+import com.linkedlist.InsertGreatestCommonDivisors;
 import com.linkedlist.ModifiedList;
 import com.linkedlist.PalindromeLinkedList;
 import com.linkedlist.SortList;
@@ -28,7 +29,7 @@ public class LinkedListPrac {
 	
 	
 	public static void main(String[] args) {
-		int[] ar = {3,0,2,6,8,1,7,9,4,2,5,5,0};
+		int[] ar = {18,6,10,3};
 		
 		ListNode headListNode = listBuilder(ar);
 		ListNode temp = headListNode;
@@ -42,11 +43,11 @@ public class LinkedListPrac {
 //	    
 //	    IsSubPath obj = new IsSubPath();
 		
-		SpiralMatrix obj = new SpiralMatrix();
-		int res[][] = obj.spiralMatrix(3, 5, headListNode);
-		for(int x[]: res) {
-			for(int j : x)
-				System.out.print(j+' ');
+		InsertGreatestCommonDivisors  obj = new InsertGreatestCommonDivisors();
+		ListNode head = obj.insertGreatestCommonDivisors(headListNode);
+		while(head != null) {
+			System.out.print(head.val + " ");
+			head = head.next;
 		}
 // 	    System.out.println("res : "+ obj.isSubPath(headListNode, root));
 		
