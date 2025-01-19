@@ -2,8 +2,6 @@
 
 # **📚 Java Collection Framework LeetCode Solutions**
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)  
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange)](https://leetcode.com/yourusername)
 
 Welcome to the **Java Collection Framework LeetCode Solutions** repository! 🚀 This repository contains my solutions to various LeetCode problems, specifically targeting topics within the **Java Collection Framework**, such as **ArrayList**, **HashMap**, **LinkedList**, **TreeSet**, and more. 
@@ -120,12 +118,16 @@ Contributions are always welcome! If you have suggestions, improvements, or new 
 
 ---
 
-## **📜 License**
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+Show heatmap in the past 52 weeks.
+
+```md
+![Leetcode Stats](https://leetcard.jacoblin.cool/rajaryanbehera?ext=heatmap)
+```
+
+[![Leetcode Stats](https://leetcard.jacoblin.cool/rajaryanbehera?ext=heatmap)](https://leetcard.jacoblin.cool/rajaryanbehera?ext=heatmap)
 
 ## **📫 Connect with Me**
-- **LeetCode**: [yourusername](https://leetcode.com/yourusername)  
-- **LinkedIn**: [Your Name](https://www.linkedin.com/in/yourlinkedin/)  
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **LeetCode**: [rajaryanbehera]([https://leetcode.com/yourusername](https://leetcode.com/u/rajaryanbehera/))  
+- **LinkedIn**: [Raj Aryan Behera]([https://www.linkedin.com/in/yourlinkedin/](https://www.linkedin.com/in/raj-aryan-272515179/))  
+- **GitHub**: [@rajaryan45]([https://github.com/yourusername](https://github.com/rajaryan45))
