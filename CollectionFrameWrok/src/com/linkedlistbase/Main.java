@@ -53,14 +53,17 @@ import com.dsa.weekly.ChessBoard;
 import com.dsa.weekly.ConvertDateToBinary;
 import com.dsa.weekly.MaxPossibleScore;
 
+import gfg.daily.KthElement;
+import janDaily.VowelStrings;
+
 public class Main {
 	
 	public static void main(String[] args) {
 		try {
 
 			
-			FindTheLongestSubstring obj = new FindTheLongestSubstring();
-			System.out.println(obj.findTheLongestSubstring("eleetminicoworoep"));
+			VowelStrings vowelStrings = new VowelStrings();
+			System.out.println(vowelStrings.vowelStrings(args, null));
 
 //			for(char x[]: res) {
 //				for(char k : x)
