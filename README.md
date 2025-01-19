@@ -66,11 +66,6 @@ git clone https://github.com/yourusername/collection-framework-solutions.git
    java ProblemName
    ```
 
----
-
-
-
----
 
 ## **🌟 Highlights**
 - **Optimized Solutions**: Focused on achieving the best possible time and space complexity.
@@ -85,6 +80,8 @@ git clone https://github.com/yourusername/collection-framework-solutions.git
 
 
 ## **📫 Connect with Me**
-- **LeetCode**: [rajaryanbehera]([https://leetcode.com/yourusername](https://leetcode.com/u/rajaryanbehera/))  
-- **LinkedIn**: [Raj Aryan Behera]([https://www.linkedin.com/in/yourlinkedin/](https://www.linkedin.com/in/raj-aryan-272515179/))  
-- **GitHub**: [@rajaryan45]([https://github.com/yourusername](https://github.com/rajaryan45))
+- **LeetCode**: [rajaryanbehera](https://leetcode.com/u/rajaryanbehera/))  
+- **LinkedIn**: [Raj Aryan Behera](https://www.linkedin.com/in/raj-aryan-272515179/))  
+- **GitHub**: [@rajaryan45](https://github.com/rajaryan45))
+
+
