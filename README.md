@@ -1,4 +1,5 @@
 
+[![Leetcode Stats](https://leetcard.jacoblin.cool/rajaryanbehera?ext=heatmap)](https://leetcard.jacoblin.cool/rajaryanbehera?ext=heatmap)
 
 # **📚 Java Collection Framework LeetCode Solutions**
 
@@ -14,8 +15,7 @@ Welcome to the **Java Collection Framework LeetCode Solutions** repository! 🚀
 3. [Getting Started](#getting-started)
 4. [Folder Structure](#folder-structure)
 5. [Highlights](#highlights)
-6. [Contributing](#contributing)
-7. [License](#license)
+
 
 ---
 
@@ -68,23 +68,7 @@ git clone https://github.com/yourusername/collection-framework-solutions.git
 
 ---
 
-## **🗂 Folder Structure**
-```plaintext
-📁 Collection-Framework-LeetCode-Solutions/
-├── 📁 ArrayList/
-│   ├── Problem1_Solution.java
-│   ├── Problem2_Solution.java
-├── 📁 HashMap/
-│   ├── Problem3_Solution.java
-│   ├── Problem4_Solution.java
-├── 📁 TreeSet/
-│   ├── Problem5_Solution.java
-│   ├── Problem6_Solution.java
-├── 📁 PriorityQueue/
-│   ├── Problem7_Solution.java
-│   ├── Problem8_Solution.java
-└── README.md
-```
+
 
 ---
 
@@ -97,35 +81,8 @@ git clone https://github.com/yourusername/collection-framework-solutions.git
   - **Graph Algorithms using Maps and Sets**
   - **Dynamic Programming with Collections**
 
----
-
-## **🤝 Contributing**
-Contributions are always welcome! If you have suggestions, improvements, or new solutions to add, please:
-1. Fork the repository.
-2. Create a new branch:  
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-3. Commit your changes:  
-   ```bash
-   git commit -m "Add your message here"
-   ```
-4. Push to the branch:  
-   ```bash
-   git push origin feature/your-feature
-   ```
-5. Open a Pull Request.
-
----
 
 
-Show heatmap in the past 52 weeks.
-
-```md
-![Leetcode Stats](https://leetcard.jacoblin.cool/rajaryanbehera?ext=heatmap)
-```
-
-[![Leetcode Stats](https://leetcard.jacoblin.cool/rajaryanbehera?ext=heatmap)](https://leetcard.jacoblin.cool/rajaryanbehera?ext=heatmap)
 
 ## **📫 Connect with Me**
 - **LeetCode**: [rajaryanbehera]([https://leetcode.com/yourusername](https://leetcode.com/u/rajaryanbehera/))  
