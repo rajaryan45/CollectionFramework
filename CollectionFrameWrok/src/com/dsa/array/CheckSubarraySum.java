@@ -2,6 +2,10 @@ package com.dsa.array;
 
 import java.util.HashMap;
 
+/*
+ *   https://leetcode.com/problems/continuous-subarray-sum/
+ */
+
 public class CheckSubarraySum {
 	  public boolean checkSubarraySum(int[] nums, int k) {
 		  HashMap<Integer, Integer> hMap = new HashMap<Integer, Integer>();

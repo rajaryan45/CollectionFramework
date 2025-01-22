@@ -1,6 +1,9 @@
 package com.dsa.array;
 
 public class LongestOnes {
+	/*
+	 *  https://leetcode.com/problems/max-consecutive-ones-iii/
+	 */
 	public int longestOnes(int[] nums, int k) {
         int mSum = 0 ; 
         int i = 0 , j = 0 ;

@@ -1,6 +1,9 @@
 package com.dsa;
 import java.util.*;
 public class TwoSumClass {
+	/*
+	 *    https://leetcode.com/problems/two-sum/
+	 */
 	public int[] twoSum(int[] nums, int target) {
 		int[] res = new int[2];
 		HashMap<Integer,Integer> hashMap = new HashMap<Integer, Integer>();

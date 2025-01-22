@@ -1,7 +1,9 @@
 package com.dsa.array;
 
 import java.util.Arrays;
-
+/*
+ *  https://leetcode.com/problems/find-the-duplicate-number/
+ */
 public class FindDuplicate {
 	public int findDuplicate(int[] nums) {
 		int i = 0 , j = 0 ;
