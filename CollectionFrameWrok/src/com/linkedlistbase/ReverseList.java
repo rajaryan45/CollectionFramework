@@ -2,9 +2,11 @@ package com.linkedlistbase;
 
 public class ReverseList {
 	
-	public ListNode reverseList(ListNode head) {
+	public ListNode[] reverseList(ListNode head) {
+		ListNode[] array = new ListNode[2];
+		array[1] = head;
 		if(head == null || head.next == null)
-	        return head;
+	        return array;
 	    ListNode temp = head.next;
 	    ListNode ptr = null;
 	    head.next = null;
@@ -14,9 +16,11 @@ public class ReverseList {
 	        temp.next = head;
 	        head = temp;
 	        temp = ptr;
-	    }        
+	    }       
+	    
 	    temp.next = head;
-	    return temp;
+	    array[0] = temp;
+	    return array;
 	}
 
 }
