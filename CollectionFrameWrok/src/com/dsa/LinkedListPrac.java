@@ -6,11 +6,14 @@ import com.dsa.tree.BinaryTreeBuilder;
 import com.dsa.tree.TreeNode;
 import com.dsa.tree.bfs.IsSubPath;
 import com.linkedlist.InsertGreatestCommonDivisors;
+import com.linkedlist.MiddleNode;
 import com.linkedlist.ModifiedList;
 import com.linkedlist.PalindromeLinkedList;
+import com.linkedlist.ReverseKGroup;
 import com.linkedlist.SortList;
 import com.linkedlist.SpiralMatrix;
 import com.linkedlistbase.ListNode;
+import com.linkedlistbase.ReverseList;
 
 
 public class LinkedListPrac {
@@ -29,7 +32,7 @@ public class LinkedListPrac {
 	
 	
 	public static void main(String[] args) {
-		int[] ar = {18,6,10,3};
+		int[] ar = {1,2};
 		
 		ListNode headListNode = listBuilder(ar);
 		ListNode temp = headListNode;
@@ -43,12 +46,13 @@ public class LinkedListPrac {
 //	    
 //	    IsSubPath obj = new IsSubPath();
 		
-		InsertGreatestCommonDivisors  obj = new InsertGreatestCommonDivisors();
-		ListNode head = obj.insertGreatestCommonDivisors(headListNode);
-		while(head != null) {
-			System.out.print(head.val + " ");
-			head = head.next;
-		}
+		ReverseKGroup reverseKGroup = new ReverseKGroup();
+		headListNode = reverseKGroup.reverseKGroup(headListNode, 2);
+		temp.displayNodes(headListNode);
+//		while(head != null) {
+//			System.out.print(head.val + " ");
+//			head = head.next;
+//		}
 // 	    System.out.println("res : "+ obj.isSubPath(headListNode, root));
 		
 		
